@@ -23,7 +23,7 @@ public class MyGoogleChromeBrowser1 {
 			
 			DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-			RemoteWebDriver googlechromedriver = new RemoteWebDriver(new URL("http://192.168.1.120:5555/wd/hub"), capabilities);
+			RemoteWebDriver googlechromedriver = new RemoteWebDriver(new URL("http://192.168.1.143:5555/wd/hub"), capabilities);
 			return googlechromedriver;
 			
 		}
